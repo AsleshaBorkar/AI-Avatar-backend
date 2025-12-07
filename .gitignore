@@ -1,0 +1,38 @@
+# ---- Node (server) ----
+server/node_modules/
+server/.env
+server/.cache
+server/dist/
+server/build/
+server/logs/
+server/npm-debug.log
+server/yarn-debug.log
+server/yarn-error.log
+
+# ---- React (client) ----
+client/node_modules/
+client/.env
+client/.cache
+client/build/
+client/dist/
+client/npm-debug.log
+client/yarn-debug.log
+client/yarn-error.log
+
+# ---- OS/System files ----
+.DS_Store
+Thumbs.db
+
+# ---- IDE/Editor ----
+.vscode/
+.idea/
+
+# ---- Logs ----
+*.log
+logs/
+*.tmp
+
+# ---- Misc ----
+*.local
+.env*
+
