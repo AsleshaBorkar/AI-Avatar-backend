@@ -1,0 +1,15 @@
+services:
+  backend:
+    image: aslesha18/ai-avatar-backend:latest
+    container_name: ai-avatar-backend
+    restart: always
+    ports:
+      - "5000:5000"
+    env_file:
+      - .env
+    networks:
+      - ai-avatar-network
+
+networks:
+  ai-avatar-network:
+    external: true
